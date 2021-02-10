@@ -2,7 +2,25 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 h1, p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.ques {
+  font-weight: bold;
+}
+
+.display {
+  background-color: rgb(238, 238, 238);
+  padding: 1px 8px;
+  height: 80px;
+  border-radius: 8px;
+  box-shadow: rgb(182, 181, 181) 0px 0px 10px;
+  margin-bottom: 20px;
+}
+
+// link
+a {
+  text-decoration: none;
+}
